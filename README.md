@@ -22,6 +22,4 @@ Link to published Expo React Native Android app: https://expo.dev/@janijk/ysnPas
 ## Technologies used???
 
 ## Acknowledgements
-Picture which is used as icon and logo in the app, is Designed by Freepik
-
-<a href="http://www.freepik.com">Designed by Freepik</a>
+Picture which is used as icon and logo in the app, is <a href="http://www.freepik.com">Designed by Freepik</a>
