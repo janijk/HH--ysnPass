@@ -23,3 +23,4 @@ Link to published Expo React Native Android app: https://expo.dev/@janijk/ysnPas
 
 ## Acknowledgements
 Picture which is used as icon and logo in the app, is <a href="https://www.freepik.com/vectors/technology">Technology vector created by freepik - www.freepik.com</a>
+Pretty Good Password Generator by https://passwordwolf.com/
