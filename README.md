@@ -13,7 +13,7 @@ are used and also the length of password, between 1 to 30 characters.
 You can also save the generated passwords or password of your own choosing along with your username and
 name of the service provider to keep all of your passwords in one place. Credentials are saved in SecureStore, using your accounts unique 28 character key.
 
-## Demo
+## Preview
 Images of login, password generation and listing of your saved credentials screens in that order.
 
 ![Screenshots](https://github.com/janijk/mobOhj/blob/main/readmeImage4.jpg?raw=true)
