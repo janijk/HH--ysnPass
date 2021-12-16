@@ -22,4 +22,4 @@ Images of login, password generation and listing of your saved credentials scree
 Link to published Expo React Native Android app: https://expo.dev/@janijk/ysnPass.
 
 ## Acknowledgements
-Picture which is used as icon and logo in the app, is<a href="https://www.freepik.com/vectors/technology">Technology vector created by freepik - www.freepik.com</a>
+Picture which is used as icon and logo in the app, is <a href="https://www.freepik.com/vectors/technology">Technology vector created by freepik - www.freepik.com</a>
