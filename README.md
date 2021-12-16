@@ -21,7 +21,7 @@ Images of login, password generation and listing of your saved credentials scree
 ## App for Android
 Link to published Expo React Native Android app: https://expo.dev/@janijk/ysnPass.
 
-##Tech
+## Tech
 App created with Expo https://expo.dev/home
 Authentication with Firebase https://firebase.google.com/
 
