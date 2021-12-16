@@ -13,12 +13,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC4Pxe3ZlK72S0hYArVFes9u9dN9GlWLHA",
-  authDomain: "ysnpass-eb007.firebaseapp.com",
-  projectId: "ysnpass-eb007",
-  storageBucket: "ysnpass-eb007.appspot.com",
-  messagingSenderId: "731533217399",
-  appId: "1:731533217399:web:e39af97ff871b2b1558072"
+  apiKey: "XX",
+  authDomain: "XX",
+  projectId: "XX",
+  storageBucket: "XX",
+  messagingSenderId: "XX",
+  appId: "XX"
 };
 
 const app = initializeApp(firebaseConfig);
