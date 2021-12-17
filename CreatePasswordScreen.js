@@ -62,13 +62,16 @@ export default function CreatePasswordScreen() {
   };
   //Fetch password via API with chosen settings    
   const generate = () => {
-    fetch(`https://passwordwolf.com/api/?upper=${upperLetters}&lower=${lowerLetters}
-            &numbers=${numbers}&special=${special}&length=${length}&repeat=1`)
-      .then(response => response.json())
-      .then(responseJson => { setPassword(responseJson[0].password) })
-      .catch(error => {
-        Alert.alert('Error', error);
-      });
+    if (numbers == 'off' && upperLetters == 'off' && lowerLetters == 'off' && special == 'off') {
+      Alert.alert('', 'Atleast 1 setting has to be enabled\nto generate password');
+    } else {
+      fetch(`https://passwordwolf.com/api/?length=${length}&upper=${upperLetters}&lower=${lowerLetters}&numbers=${numbers}&special=${special}&repeat=1`)
+        .then(response => response.json())
+        .then(responseJson => { setPassword(responseJson[0].password) })
+        .catch(error => {
+          Alert.alert('Error', error);
+        });
+    }
   };
   //Observer for current user    
   onAuthStateChanged(auth, (user) => {
